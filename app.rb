@@ -23,6 +23,7 @@ class App < Sinatra::Base
     #@number2 = params[:num2].to_i
     #@number * @number2
     #params[:num1]
+    params[:num1]
     params[:num2]
   end
 
