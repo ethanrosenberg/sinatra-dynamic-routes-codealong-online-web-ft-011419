@@ -24,7 +24,7 @@ class App < Sinatra::Base
     #@number * @number2
     #params[:num1]
     params[:num1]
-    params[:num2]
+    params[:num1]
   end
 
   # Code your final two routes here:
