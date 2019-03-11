@@ -22,7 +22,7 @@ class App < Sinatra::Base
     #@number = params[:num1].to_i
     #@number2 = params[:num2].to_i
     #@number * @number2
-    "test"
+    params[:num1]
   end
 
   # Code your final two routes here:
